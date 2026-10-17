@@ -1,0 +1,13 @@
+FORWARD - pacote para publicação no Cloudflare Pages
+
+Projeto: forward-fitness
+Endereço: https://forward-fitness.pages.dev
+Contato: forwardfitness0@gmail.com
+
+Envie ESTE arquivo ZIP pelo Direct Upload do Cloudflare Pages.
+Contém index.html, seis artigos, sitemap.xml e robots.txt.
+
+IMPORTANTE: o botão de contato abre seu programa de e-mail (mailto), não é formulário hospedado.
+Verifique o site ao vivo e a disponibilidade dos links externos após publicar.
+Ainda há dependência de Tailwind CDN, Lucide, Google Fonts e Unsplash.
+As políticas são modelos editoriais e não substituem revisão jurídica quando necessária.
