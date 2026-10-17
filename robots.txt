@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://forward-fitness.pages.dev/sitemap.xml
+
+Sitemap: https://forward-fitness-indol.vercel.app/sitemap.xml
