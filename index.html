@@ -1275,7 +1275,8 @@
     <button type="button" id="cookie-accept" class="rounded-lg bg-emerald-600 px-4 py-2 text-sm font-semibold text-white">Aceitar</button>
   </div>
 </div>
-<script>
+<button type="button" id="cookie-settings" class="fixed bottom-4 left-4 z-40 rounded-lg border border-gray-300 bg-white px-3 py-2 text-xs font-semibold text-gray-800 shadow-lg" aria-label="Alterar preferências de cookies">Preferências de cookies</button>
+    <script>
 (function () {
   const banner = document.getElementById('cookie-banner');
   const stored = localStorage.getItem('forward_cookie_consent');
@@ -1301,6 +1302,9 @@
   }
   document.getElementById('cookie-accept').addEventListener('click', () => saveChoice('accepted'));
   document.getElementById('cookie-reject').addEventListener('click', () => saveChoice('rejected'));
+document.getElementById('cookie-settings').addEventListener('click', () => {
+  banner.style.display = 'block';
+});
 })();
 </script>
 </body>
